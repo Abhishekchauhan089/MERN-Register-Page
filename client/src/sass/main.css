@@ -1,0 +1,85 @@
+body {
+  background-color: #1b252e;
+  overflow: hidden;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login .content {
+  padding: 100px;
+  background-color: #282f39;
+  width: 30%;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+}
+.login .content .header {
+  margin: 20px 0;
+  text-align: center;
+}
+.login .content .header .logo {
+  font-size: 4rem;
+  color: #f26e63;
+}
+.login .content .header .logo .logo-account {
+  color: #fff;
+  size: 30px;
+}
+.login .content .header .heading {
+  font-size: 2.5rem;
+  color: white;
+}
+.login .content .login-info .user-info {
+  margin-top: 30px;
+  position: relative;
+}
+.login .content .login-info .user-info .login-input {
+  width: 100%;
+  outline: none;
+  padding: 20px;
+  border-radius: 5px;
+  background: none;
+  position: relative;
+  font-size: 1.2rem;
+  color: white;
+}
+.login .content .login-info .user-info .login-input:valid ~ .user,
+.login .content .login-info .user-info .login-input:focus ~ .user {
+  color: white;
+  top: -8px;
+  left: 20px;
+  font-size: 1rem;
+  background-color: #282f39;
+  border-left: 2px solid #f26e63;
+  border-right: 2px solid #f26e63;
+  padding: 0 10px;
+  color: #f26e63;
+}
+.login .content .login-info .user {
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 1.3rem;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.login .content .button {
+  text-align: center;
+}
+.login .content .button .login-btn {
+  width: 50%;
+  padding: 20px;
+  border-radius: 40px;
+  cursor: pointer;
+  margin: 50px 0 25px 0;
+  background-color: #f26e63;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+}
+.login .content .button .login-btn:active {
+  transform: scale(1.1);
+}/*# sourceMappingURL=main.css.map */
